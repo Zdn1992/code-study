@@ -5,10 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.com.zdn.pattern</groupId>
-  <artifactId>com.zdn-pattern</artifactId>
+  <artifactId>zdn-pattern</artifactId>
   <version>1.0-SNAPSHOT</version>
-
-  <name>com.zdn-pattern</name>
 
 
   <properties>
