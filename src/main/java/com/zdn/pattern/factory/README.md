@@ -6,7 +6,7 @@
 3. 抽象工厂
 
 ---
-### UMLL类图
+### UML类图
 * 简单工厂   
 ![staticmethod](https://github.com/Zdn1992/pattern-study/blob/master/src/main/java/com/zdn/pattern/factory/staticmethod/uml/staticmethod.png)
 * 工厂方法   
