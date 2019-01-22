@@ -1,4 +1,4 @@
-package zdn.pattern.single;
+package com.zdn.pattern.single;
 
 import java.util.HashSet;
 import java.util.Set;

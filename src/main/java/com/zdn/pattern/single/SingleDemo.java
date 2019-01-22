@@ -1,4 +1,4 @@
-package zdn.pattern.single;
+package com.zdn.pattern.single;
 
 /**
  * 线程安全的懒汉单例模式
