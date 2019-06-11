@@ -4,6 +4,7 @@ import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
+ * Zdn1992
  * 生产消费模型
  * 练习ReentrantLock和Condition
  * 生产消费交替进行
