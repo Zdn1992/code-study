@@ -1,4 +1,4 @@
-package com.zdn.lock;
+package com.zdn.thread.lock;
 
 /**
  * from  JavaGuide
