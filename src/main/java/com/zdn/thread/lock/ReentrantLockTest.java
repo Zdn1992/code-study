@@ -4,7 +4,7 @@ package com.zdn.thread.lock;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class ReentrantLockDemo {
+public class ReentrantLockTest {
 
 
     public static void main(String[] args) {

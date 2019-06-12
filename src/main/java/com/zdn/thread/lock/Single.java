@@ -4,7 +4,7 @@ package com.zdn.thread.lock;
 /**
  * 写一个线程安全的懒汉模式
  */
-public class SingleDemo {
+public class Single {
     /**
      * 采用 volatile 关键字修饰也是很有必要。
      * uniqueInstance = new Singleton(); 这段代码其实是分为三步执行：
@@ -18,15 +18,15 @@ public class SingleDemo {
      * 因此返回 uniqueInstance，但此时 uniqueInstance 还未被初始化。
      * 使用 volatile 可以禁止 JVM 的指令重排，保证在多线程环境下也能正常运行。
      */
-    private static volatile SingleDemo single;
+    private static volatile Single single;
 
-    private SingleDemo(){}
+    private Single(){}
 
-    public static SingleDemo getInstance(){
+    public static Single getInstance(){
         if (single == null){
-            synchronized (SingleDemo.class){
+            synchronized (Single.class){
                 if (single == null){
-                    single = new SingleDemo();
+                    single = new Single();
                 }
             }
         }
