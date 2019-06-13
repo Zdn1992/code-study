@@ -1,4 +1,4 @@
-package com.zdn.java8.lambda;
+package com.zdn.java8;
 
 import lombok.extern.slf4j.Slf4j;
 
