@@ -19,6 +19,7 @@ public class StreamTest {
         stringList.add("ccc");
         stringList.add("bbb2");
         stringList.add("ddd1");
+        stringList.add("dev");
 
         stringList
                 .stream()
